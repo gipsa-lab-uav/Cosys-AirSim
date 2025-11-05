@@ -8,7 +8,7 @@ set -e
 set -x
 
 debug=false
-gcc=false
+gcc=true
 # Parse command line arguments
 while [[ $# -gt 0 ]]
 do
